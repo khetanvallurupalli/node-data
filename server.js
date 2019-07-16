@@ -58,6 +58,6 @@ app.use('/v1/database', route);
 
 
 
-app.listen(config.PORT, () => {
-    logger.info(`Server is up on port ${config.PORT}`)
+app.listen(3006, () => {
+    logger.info(`Server is up on port 3006`)
 })
