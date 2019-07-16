@@ -2,7 +2,7 @@ const { Pool, Client } = require("pg");
 const connectionString =
 process.env.DATABASE_URL
 const client = new Client({
-  connectionString: connectionString
+  connectionString: "postgres://dxpcrnwtybldcu:3c856fb98979edbc94838f54522980db610f62bcb44fea91225766f1034f5f5a@ec2-174-129-229-106.compute-1.amazonaws.com:5432/d2p6306oe3o0ei",
 });
 client.connect();
 
