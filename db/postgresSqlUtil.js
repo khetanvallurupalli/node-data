@@ -1,4 +1,8 @@
-const { Pool, Client } = require("pg");
+const http = require('http');
+const { Client } = require('pg');
+
+const PORT = process.env.PORT || 5000;
+const { DATABASE_URL } = process.env;
 //const connectionString =
 //process.env.DATABASE_URL
 
@@ -107,7 +111,7 @@ async function Updatewithkey(dbmParam, dbObj) {
     });
   });
 }
-
+ 
 async function Query() {
   console.log(...arguments);
 }
