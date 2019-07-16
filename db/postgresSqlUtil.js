@@ -4,7 +4,7 @@ const { Pool, Client } = require("pg");
 
 //console.log(process.env.DATABASE_URL)
 const client = new Client({
-  connectionString: "postgres://dxpcrnwtybldcu:3c856fb98979edbc94838f54522980db610f62bcb44fea91225766f1034f5f5a@ec2-174-129-229-106.compute-1.amazonaws.com:5432/d2p6306oe3o0ei",
+  connectionString: "postgres://jcrljsigcywxnc:d70f83a5e4f944480eec913f4ffc567aa1bda97495c0b378ddd29de6140e496a@ec2-23-21-160-38.compute-1.amazonaws.com:5432/d159e6c8m0ir3u",
   ssl: true
 });
 console.log(process.env.DATABASE_URL)
