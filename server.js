@@ -53,7 +53,7 @@ app.use(function (req, res, next) {
 
 
 
-app.use('/v1/database', route);
+app.use('/', route);
 
 
 
