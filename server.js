@@ -3,7 +3,6 @@ const helmet = require('helmet');
 const uidgen = require('uuid/v4');
 const bodyParser = require('body-parser');
 var app = express();
-const config = require('./config')();
 var route = require('./routes');
 require('./db');
 const {logger} = require('./utils/logger');
