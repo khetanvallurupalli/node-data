@@ -2,7 +2,7 @@ const http = require('http');
 const { Client } = require('pg');
 
 const PORT = process.env.PORT || 5000;
-const { DATABASE_URL } = process.env;
+const { DATABASE_URL } = process.env.DATABASE_URL;
 //const connectionString =
 //process.env.DATABASE_URL
 
