@@ -3,6 +3,7 @@ const helmet = require('helmet');
 const uidgen = require('uuid/v4');
 const bodyParser = require('body-parser');
 var app = express();
+const config = require('./config')();
 var route = require('./routes');
 require('./db');
 const {logger} = require('./utils/logger');
@@ -57,6 +58,6 @@ app.use('/v1/database', route);
 
 
 
-app.listen(3006, () => {
-    logger.info(`Server is up on port 3006`)
+app.listen(config.PORT, () => {
+    logger.info(`Server is up on port ${config.PORT}`)
 })
