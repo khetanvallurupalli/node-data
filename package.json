@@ -1,0 +1,25 @@
+{
+  "name": "dbmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.280.1",
+    "bcrypt": "2.0.1",
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "helmet": "3.17.0",
+    "jsonwebtoken": "8.3.0",
+    "lodash": "4.17.10",
+    "lowdb": "1.0.0",
+    "mysql": "2.16.0",
+    "pg": "^7.11.0",
+    "uuid": "3.3.2",
+    "winston": "3.1.0"
+  }
+}
