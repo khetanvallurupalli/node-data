@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000;
 const connectionString = process.env.DATABASE_URL
 console.log(process.env.DATABASE_URL)
 const client = new Client({
-  connectionString: "postgres://jcrljsigcywxnc:d70f83a5e4f944480eec913f4ffc567aa1bda97495c0b378ddd29de6140e496a@ec2-23-21-160-38.compute-1.amazonaws.com:5432/d159e6c8m0ir3u",
+  connectionString: "postgres://izntceifgxqptv:a36f5bbcbb3ba18be3473cf4a59bcc4e2ff0ea749d119896736b1a93e583a9ef@ec2-107-20-168-237.compute-1.amazonaws.com:5432/d1uu99bfh2ctd9",
 });
 console.log(process.env.DATABASE_URL)
 client.connect();
